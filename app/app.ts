@@ -177,7 +177,7 @@ setTimeout(drawshape, 75) // added small delay just for visual effects
     
   } 
    else {
-     ctx.strokeStyle = 'black'
+     ctx.strokeStyle = color.value
     ctx.beginPath()
     
 }

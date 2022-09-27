@@ -255,8 +255,10 @@ T.addEventListener('click',function(){
 } 
   else{
     drawingtriangle = false;
+    
      canvas.removeEventListener('mousemove',triangle);
   T.textContent = '3D Triangle';
+    ctx.strokeStyle = color.value
   }
 
 })
